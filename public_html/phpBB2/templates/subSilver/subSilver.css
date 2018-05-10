@@ -1,0 +1,423 @@
+ /************************* HTML ELEMENTS STYLES *****************************/
+BODY {
+	background-color: #FFFFFF;	
+	margin: 0px;
+	padding: 0px;
+	font-family: Helvetica, Arial, Verdana, Sans-Serif;
+	font-size: 12px;
+}
+
+FONT, TD, TH {
+	font-family: Helvetica, Arial, Verdana, Sans-Serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+A, A:link, A:active, A:visited { color : #222222; }
+A:hover { text-decoration: underline; color : #888888; }
+P { font-size: 12px; font-weight: normal; margin: 0px; padding: 0px; }
+STRONG { font-weight: bold; }
+HR { height: 0px; border: solid #888888 1px; border-top-width: 0px;}
+H1 { font-size: 17px; font-weight: bold; }
+H2 { font-size: 14px; font-weight: bold; margin: 0px; padding: 0px; }
+H3 { font-size: 12px; font-weight: bold; margin: 0px; padding: 0px; }
+H4 { font-size: 11px; font-weight: bold; margin: 0px; padding: 0px; }
+H5 { font-size: 10px; font-weight: bold; margin: 0px; padding: 0px; }
+LI { line-height: 150%; }
+
+/************************* CLASS ELEMENTS STYLES *****************************/
+.topbox {
+	padding: 9px;
+	background-color: #383E4B;
+}
+
+.rightShade {
+	background-color: #D8DADE;
+	background-image: url(images/rightSideShade.gif);
+	background-position-x: 0px;
+	background-position-y: 0px;
+	background-repeat: repeat-y;	
+}
+
+.maincell {
+	padding-left: 3px;
+	margin-left: 3px;
+	background-color: #FFFFFF;
+	background-image: url(images/mainCellFadeBG.gif);
+	background-position: 0px 0px;
+	background-repeat: repeat-x;		
+}
+
+.floaterTopCap {
+	margin: 0px; padding: 0px;
+	width: 169px;
+	height: 6px;
+	background-image: url(images/floaterTopCap.gif);
+	background-position: 0px 0px;
+	background-repeat: none;
+}
+
+.floaterLeftCap {
+	margin: 0px; padding: 0px;
+	width: 2px;
+	height: 1px;
+	background-image: url(images/floaterLeftCap.gif);
+	background-position: left top;
+	background-repeat: repeat-y;
+}
+
+.floaterRightCap {
+	margin: 0px; padding: 0px;
+	height: 1px;
+	width: 4px;
+	background-image: url(images/floaterRightCap.gif);
+	background-position: right top;
+	background-repeat: repeat-y;
+}
+
+.floaterBottomCap {
+	width: 169px;
+	height: 6px;
+	background-image: url(images/floaterBottomCap.gif);
+	background-position: 0px 0px;
+	background-repeat: none;
+}
+
+.btnLightToLightMiddle {
+	height: 20px;
+	background-image: url(images/btnLightToLightMiddle.gif);
+	background-position: 0px 0px;
+}
+
+.btnLightLeftEnd {
+	height: 20px;
+	background-image: url(images/btnLightLeftEnd.gif);
+	background-position: 0px 0px;
+}
+
+.btnLightMiddle {
+	padding-left: 3px;
+	padding-right: 3px;
+	height: 20px;
+	background-image: url(images/btnLightMiddle.gif);
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+}
+
+.btnLightRightEnd {
+	height: 20px;
+	background-image: url(images/btnLightRightEnd.gif);
+	background-position: 0px 0px;
+}
+
+.btnSpacer { width: 3px; }
+
+#frontArticle {
+	background: white;	
+}
+	
+.article {
+	border: 1px solid #f5f5f5;
+	border-bottom: 1px solid #ddd;
+	margin: 0px; margin-right: 12px;
+	padding-top: 0px; padding-bottom: 9px; padding-left: 9px; padding-right: 8px;
+}
+.article H1  { padding-top: 8px; padding-bottom: 8px; margin: 0px; }
+.article P   { padding-top: 0px; padding-bottom: 8px; margin: 0px; font-size: 11px; }
+.article IMG {
+	padding: 0px;
+	margin-top: 2px;
+	margin-left: 1px;
+	margin-right: 10px;
+	margin-bottom: 4px;
+}
+
+.al { padding: 0px; padding-top: 3px; margin: 0px; position: relative; left: -11px; }
+.al IMG { position: relative; top: 4px; padding-right: 3px; margin-right: 0px; }
+.al A { font-size: 11px; }
+
+.latest {
+	border: 1px solid #FFFFFF;
+	margin: 0px; margin-bottom: 11px;
+	padding-top: 6px; padding-right: 5px; padding-bottom: 5px;
+}
+.latest TD { margin: 0px; padding: 0px; padding-bottom: 3px; }
+.latest H3 { padding-left: 7px; padding-bottom: 4px; }
+.latest P { padding: 0px; margin: 0px; font-size: 11px; line-height: 120%; }
+.latest IMG { padding: 0px; margin: 0px; margin-right: 3px; position: relative; top: 2px;}
+
+.info {
+	border: 1px solid #FFFFFF;
+	margin: 0px;
+	padding-top: 6px; padding-bottom: 6px; padding-left: 6px; padding-right: 6px;
+	font-size: 11px;
+	line-height: 120%;
+}
+
+.info p { font: inherit; margin: 0 0 4px; overflow: hidden;}
+
+.info IMG { padding: 0px; margin; 0px; position: relative; left: -6px; top: 1px; }
+
+.browseinfo {
+	border: 1px solid #FFFFFF;
+	margin: 0px; margin-right: 12px;
+	padding-top: 6px; padding-bottom: 6px; padding-left: 6px; padding-right: 6px;
+	font-size: 11px;
+}
+.browseinfo IMG { padding: 0px; margin; 0px; position: relative; left: -6px; top: 1px; }
+
+/* The register, login, search etc links at the top of the page */
+.mainmenu		{ position: relative; top: 1px; font-size : 11px; color : #000000; font-weight: normal; }
+a.mainmenu		{ text-decoration: none; color : #000000;  }
+a.mainmenu:hover{ text-decoration: underline; color : #666666; }
+
+.submenu		{ position: relative; top: 1px; font-size : 11px; color : #000000; font-weight: normal; }
+a.submenu		{ text-decoration: none; color : #000000;  }
+a.submenu:hover{ text-decoration: underline; color : #666666; }
+
+.topic_title {
+    font-size: 1.7em;
+    font-weight: bold;
+    color: #000;
+}
+
+.head_mid {
+   border: 1px solid #999;
+   border-bottom: 0px;
+   padding: 9px;
+}
+
+.ttitle_left {
+	border: 1px solid #999999;
+	border-right: 0px;
+	padding-left: 9px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+.ttitle_mid  { border: 1px solid #999999; border-left: 0px; border-right: 0px; }
+.ttitle_right { border: 1px solid #999999; border-left: 0px; }
+
+.tttitle_left {
+	border: 1px solid #999999;
+	border-right: 0px;
+	border-bottom: 0px;
+	padding-left: 9px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+.tttitle_mid  { border: 1px solid #999999; border-left: 0px; border-right: 0px; border-bottom: 0px; }
+.tttitle_right { border: 1px solid #999999; border-left: 0px; border-bottom: 0px; }
+
+.splitbox_row {
+	border: 1px solid #999999;
+	border-left: 0px;
+}
+
+.trow_left {
+	border-bottom: 1px solid #999999;
+	border-left: 1px solid #999999;
+}
+.trow_left IMG { padding: 0px; padding-bottom: 6px; padding-top: 6px; padding-left: 4px; padding-right: 5px; margin: 0px; }
+
+.trow_mid {
+	font-size: 11px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-right: 9px;
+	border-bottom: 1px solid #999999;
+}
+.trow_mid A { color: #222222; }
+.trow_mid A:hover { text-decoration: underline; color: #888888; }
+
+.trow_right {
+	font-size: 11px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #999999;
+	border-right: 1px solid #999999;
+}
+.tspacer { height: 14px; background-color: transparent; }
+.ttspacer { height: 14px; background-color: transparent; border-top: 1px solid #999999; }
+
+.userrow {
+	font-size: 11px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	padding-right: 6px;
+	padding-left: 9px;
+	border: 1px solid #999999;
+	border-bottom: 0px;
+}
+
+.daterow {
+	font-size: 11px;
+	color: #999999;
+	padding-right: 6px;
+	padding-top: 6px;
+	border-top: 1px solid #999999;
+	border-right: 1px solid #999999;
+}
+
+.contentrow {
+	padding: 9px;
+	border-right: 1px solid #999999;
+}
+
+.contentrow H2 { font-size: 12px; padding-bottom: 0px; margin-bottom: 0px; }
+.contentrow IMG { padding: 0px; margin-top: 2px; margin-left: 1px; margin-right: 10px; margin-bottom: 4px; }
+
+.totop {
+	font-size: 11px;
+	color: #999999;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+}
+
+.ctotop {
+	font-size: 11px;
+	color: #999999;
+	padding-top; 12px;
+}
+
+.totop A { color: #999999; }
+
+.buttonrow {
+	padding-bottom: 6px;
+	padding-right: 6px;
+	border-bottom: 1px solid #999999;	
+	border-right: 1px solid #999999;
+}
+
+.ptitle {
+	border: 1px solid #999999;
+	border-bottom: 0px;
+	padding-left: 9px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.prow_left {
+	border-left: 1px solid #999999;
+	padding-left: 9px;
+	padding-bottom: 2px;
+}
+
+.prow_right {
+	border-right: 1px solid #999999;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-bottom: 2px;
+}
+.prow { padding-left: 9px; padding-right: 9px; padding-bottom: 3px; }
+.pmid {
+	border: 1px solid #999999; border-top: 0px; border-bottom: 0px;
+	padding-left: 9px;
+	padding-right: 9px;
+}
+
+.pbottom {
+	padding: 9px;
+	border: 1px solid #999999;
+	border-top: 0px;
+}
+
+.pdaterow {
+	font-size: 11px;
+	color: #999999;
+	padding-right: 6px;
+	padding-top: 6px;
+	border-top: 1px solid #999999;
+	border-right: 1px solid #999999;
+	border-left: 1px solid #999999;
+}
+
+.mini {
+	padding: 4px;
+	margin-bottom: 2px;
+}
+.mini TH { padding: 6px; }
+.mini TD { padding: 2px; padding-bottom: 6px; }
+
+.sbottom {
+	border-top: 1px solid #999999;
+}
+
+.nbox { padding-right: 12px; border-right: 1px solid #999999; }
+.nbox TD {
+	color: #333333;
+	font-size: 11px;
+}
+
+.helpblock {
+	padding: 9px;
+	padding-bottom: 12px;
+	line-height: 140%;
+}
+
+/* Quote & Code blocks */
+.code {
+	font-family: 'Courier New', Courier, sans-serif;
+	font-size: 11px;
+	color: #006600;
+	background-color: #FAFAFA;
+	border: 1px solid #D1D7DC;
+}
+
+.quote {
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 11px; color: #444444;
+	line-height: 120%;
+	background-color: #FAFAFA;
+	border: 1px solid #D1D7DC;
+}
+
+/* Copyright and bottom info */
+.copyright {
+	font-size: 10px;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	color: #444444;
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
+a.copyright		{ color: #444444; text-decoration: none;}
+a.copyright:hover { color: #000000; text-decoration: underline;}
+
+/* Form elements */
+input, textarea, select {
+	color : #222222;
+	font: normal 11px Helvetica, Verdana, Arial, sans-serif;
+	border-color : #666666;
+}
+
+/* The text input fields background colour */
+input.post, textarea.post, select {
+	background-color : #FFFFFF;
+	font-size: 12px;
+}
+
+input { text-indent : 1px; }
+
+/* The buttons used for bbCode styling in message post */
+
+input.button {
+	background-color : #EFEFEF;
+	color : #000000;
+	font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* The main submit button option */
+input.mainoption {
+	background-color : #FAFAFA;
+	font-weight : bold;
+}
+
+/* None-bold submit button */
+input.liteoption {
+	background-color : #FAFAFA;
+	font-weight : normal;
+}
+
+/* Import the fancy styles for IE only (NS4.x doesn't use the @import function) */
+@import url("formIE.css");
