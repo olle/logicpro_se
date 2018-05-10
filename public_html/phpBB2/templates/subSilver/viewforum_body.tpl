@@ -6,7 +6,7 @@
 				<h2>{FORUM_NAME}</h2>
 				{FORUM_DESC}<br>
 				{L_MODERATOR} : {MODERATORS}<br><br>
-				<h3>Rättigheter i forumet</h3>
+				<h3>RÃ¤ttigheter i forumet</h3>
 				{S_AUTH_LIST}	
 			</div>
 		</td>

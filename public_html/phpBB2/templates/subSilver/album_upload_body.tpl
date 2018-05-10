@@ -69,11 +69,11 @@ function checkAlbumForm() {
 	<td class="prow_right"><span class="gen"><b>{S_MAX_FILESIZE}</b></span></td>
   </tr>
   <tr>
-	<td class="prow_left" align="right"><h3>Största tillåtna bildstorlek:</h3></td>
+	<td class="prow_left" align="right"><h3>StÃ¶rsta tillÃ¥tna bildstorlek:</h3></td>
 	<td class="prow_right"><span class="gen"><b>{S_MAX_WIDTH} x {S_MAX_HEIGHT}</b></span></td>
   </tr>
   <tr>
-	<td class="prow_left" align="right"><h3>Bildformat som är tillåtna:</h3></td>
+	<td class="prow_left" align="right"><h3>Bildformat som Ã¤r tillÃ¥tna:</h3></td>
 	<td class="prow_right" style="color: #999;">
 		JPEG/JPG: <strong>{S_JPG}</strong> &nbsp;&nbsp;
 		PNG: <strong>{S_PNG}</strong> &nbsp;&nbsp;

@@ -7,9 +7,9 @@
 		  	<b>Kunder</b><br>
 		  	<div align="left">
 			  	<input type="button" value="Visa info" onClick="document.location='{L_SHOW_INFO}';return true;">
-			  	<input type="button" value="Göm info" onClick="document.location='{L_HIDE_INFO}';return true;">		  	
+			  	<input type="button" value="GÃ¶m info" onClick="document.location='{L_HIDE_INFO}';return true;">		  	
 			  	&nbsp;&nbsp;&nbsp;&nbsp;
-			  	<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;Lägg till en ny kund&nbsp;&nbsp;&nbsp;&nbsp;" onClick="document.location='{L_ADD_CLIENT}';return true;">
+			  	<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;LÃ¤gg till en ny kund&nbsp;&nbsp;&nbsp;&nbsp;" onClick="document.location='{L_ADD_CLIENT}';return true;">
 		  	</div>
 		  </th>
 		</tr>

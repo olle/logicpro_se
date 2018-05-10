@@ -5,7 +5,7 @@
 			<div class="browseinfo">
 				<!-- h2>{TOPIC_TITLE}</h2 -->
 				{L_MODERATOR} : {MODERATORS}<br><br>
-				<h3>Rättigheter i forumet</h3>
+				<h3>RÃ¤ttigheter i forumet</h3>
 				{S_AUTH_LIST}	
 			</div>
 		</td>
@@ -68,7 +68,7 @@
 <table width="750" cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF">
 	<!-- BEGIN switch_poll -->
 	<tr>
-		<td class="tttitle_left" align="left" valign="top"><h3>Omröstning</h3></td>
+		<td class="tttitle_left" align="left" valign="top"><h3>OmrÃ¶stning</h3></td>
 		<td class="tttitle_right">
 		</td>
 	</tr>
@@ -93,7 +93,7 @@
 			{postrow.PM}
 		</td>
 		<td class="daterow" align="right" valign="top">
-			Inlägg Id: {postrow.U_POST_ID}&nbsp;&nbsp;&nbsp;
+			InlÃ¤gg Id: {postrow.U_POST_ID}&nbsp;&nbsp;&nbsp;
 			{L_POSTED}: {postrow.POST_DATE}
 		</td>
 	</tr>

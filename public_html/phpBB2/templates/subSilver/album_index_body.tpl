@@ -35,7 +35,7 @@
 	</td>
 	<td class="trow_right" colspan="3" width="50" align="left" valign="middle">
 		<h3><a href="{U_USERS_PERSONAL_GALLERIES}" class="cattitle">{L_USERS_PERSONAL_GALLERIES}</a></h3>
-		Här kan du hitta medlemmarnas privata gallerier.
+		HÃ¤r kan du hitta medlemmarnas privata gallerier.
 	</td>
   </tr>
   <tr> 
@@ -44,7 +44,7 @@
 	</td>
 	<td class="trow_right" colspan="3" width="50" align="left" valign="middle">
 		<h3><a href="{U_YOUR_PERSONAL_GALLERY}" class="cattitle">{L_YOUR_PERSONAL_GALLERY}</a></h3>
-		Gå direkt till ditt eget galleri.
+		GÃ¥ direkt till ditt eget galleri.
 	</td>
   </tr>
 </table>

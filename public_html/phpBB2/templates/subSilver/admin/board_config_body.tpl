@@ -28,7 +28,7 @@
 		<td class="row2"><input class="post" type="text" size="40" maxlength="255" name="site_desc" value="{SITE_DESCRIPTION}" /></td>
 	</tr>
 	<tr>
-		<td class="row1">Forum för nyheter</td>
+		<td class="row1">Forum fÃ¶r nyheter</td>
 		<td class="row2">{FORUM_SELECT}</td>
 	</tr>
 	<tr>

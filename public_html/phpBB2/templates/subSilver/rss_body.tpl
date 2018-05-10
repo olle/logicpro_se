@@ -16,7 +16,7 @@
 	<pubDate>{post_item.POST_TIME}</pubDate>
 	<description>
 	&lt;strong&gt;Forum:&lt;/strong&gt; {post_item.FORUM_LINK}
-	&raquo; &lt;strong&gt;Författare:&lt;/strong&gt; {post_item.AUTHOR}
+	&raquo; &lt;strong&gt;FÃ¶rfattare:&lt;/strong&gt; {post_item.AUTHOR}
 	&raquo; &lt;strong&gt;Svar:&lt;/strong&gt; {post_item.TOPIC_REPLIES}</description>
 </item>
 <!-- END post_item -->

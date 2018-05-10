@@ -1,7 +1,7 @@
 <div align="left" style="margin; 0px; margin-left: 8px; margin-right: 11px;">
 <table width="750" cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF">
 	<tr> 
-		<th class="ptitle" colspan="3" align="left"><h1>Anv‰ndarprofil: {USERNAME}</h1></th>
+		<th class="ptitle" colspan="3" align="left"><h1>Anv√§ndarprofil: {USERNAME}</h1></th>
 	</tr>
 	<tr>
 		<td class="prow_left" align="center" valign="top" rowspan="12" width="166">

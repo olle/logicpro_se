@@ -59,7 +59,7 @@
 
 				<td class="btnLightLeftEnd" width="5"></td>
 				<td class="btnLightMiddle">
-					<a href="{U_NEXT}" class="submenu" style="width: 130px;">n‰sta</a>
+					<a href="{U_NEXT}" class="submenu" style="width: 130px;">n√§sta</a>
 					<a href="{U_NEXT}" class="submenu">{L_NEXT}</a>
 				</td>
 				<td class="btnLightRightEnd" width="5"></td>					

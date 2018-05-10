@@ -1,2 +1,2 @@
 
-<h1>Bannersystemet är installerat.</h1>
+<h1>Bannersystemet Ã¤r installerat.</h1>

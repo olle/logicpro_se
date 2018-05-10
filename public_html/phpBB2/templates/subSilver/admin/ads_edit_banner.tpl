@@ -18,7 +18,7 @@
 		  <td class="catSides"><span class="cattitle"><input name="title" value="{TITLE}" type="text" size="20" maxlength="80"></span></td>
 		</tr>
 		<tr>
-		  <td class="catSides"><span class="cattitle">L‰nk URL</span></td>
+		  <td class="catSides"><span class="cattitle">L√§nk URL</span></td>
 		  <td class="catSides"><span class="cattitle"><input name="url" value="{URL}" type="text" size="50" maxlength="160"></span></td>
 		</tr>
 		<tr>
@@ -26,7 +26,7 @@
 		  <td class="catSides"><span class="cattitle"><input name="image_url" value="{IMAGE_URL}" type="text" size="50" maxlength="160"></span>(&nbsp;./ads = bannerroot &nbsp;)</td>
 		</tr>
 		<tr>
-		  <td class="catSides"><span class="cattitle">Bild/Data k‰lla</span></td>
+		  <td class="catSides"><span class="cattitle">Bild/Data k√§lla</span></td>
 		  <td class="catSides">
 		  	<span class="cattitle">
 		  		<input type="hidden" name="MAX_FILE_SIZE" value="">
@@ -36,7 +36,7 @@
 		<tr>
 		  <td class="catSides" valign="top"><span class="cattitle">Text/HTML</span></td>
 		  <td class="catSides"><span class="cattitle"><textarea name="alt_text" cols="60" rows="6">{ALT_TEXT}</textarea></span><br>
-		  (Om text eller HTML anges h‰r sÂ ers‰tts den Bild SRC som angetts tidigare.)
+		  (Om text eller HTML anges h√§r s√• ers√§tts den Bild SRC som angetts tidigare.)
 		  </td>
 		</tr>
 		<tr>
@@ -54,19 +54,19 @@
 		<tr>
 		  <td class="catSides"><span class="cattitle">Slutdatum</span></td>
 		  <td class="catSides"><span class="cattitle"><input name="expiration_date" value="{EXPIRATION_DATE}" type="text" size="12" maxlength="10"></span>
-		  &quot;YYYY-MM-DD&quot; (tomt eller 0000-00-00 fˆr inget slutdatum)
+		  &quot;YYYY-MM-DD&quot; (tomt eller 0000-00-00 f√∂r inget slutdatum)
 		  </td>
 		</tr>		
 		<tr>
 		  <td class="catSides"><span class="cattitle">Max-visningar</span></td>
 		  <td class="catSides"><span class="cattitle"><input name="expiration_displays" value="{EXPIRATION_DISPLAYS}" type="text" size="5"></span>
-		  Ange 0 eller tomt fˆr o‰ndligt antal visningar
+		  Ange 0 eller tomt f√∂r o√§ndligt antal visningar
 		  </td>
 		</tr>		
 		<tr>
 		  <td class="catSides"><span class="cattitle">Max-click</span></td>
 		  <td class="catSides"><span class="cattitle"><input name="expiration_clicks" value="{EXPIRATION_CLICKS}" type="text" size="5"></span>
-		  Ange 0 eller tomt fˆr o‰ndligt antal click
+		  Ange 0 eller tomt f√∂r o√§ndligt antal click
 		  </td>
 		</tr>		
 		<tr>

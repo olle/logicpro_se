@@ -16,7 +16,7 @@
 	<tr>
 		<td class="userrow" rowspan="2" align="left" valign="top"><h3>{postrow.POSTER_NAME}</h3></td>
 		<td class="daterow" align="right" valign="top">
-			Inl‰gg nr: {postrow.U_POST_ID}&nbsp;&nbsp;&nbsp;
+			Inl√§gg nr: {postrow.U_POST_ID}&nbsp;&nbsp;&nbsp;
 			{L_POSTED}: {postrow.POST_DATE}
 		</td>
 	</tr>

@@ -26,7 +26,7 @@ function checkRateForm() {
   <tr>
   	<td class="pmid" align="center" colspan="2">
 		<h3>Bilden har just nu betyget: {PIC_RATING}</h3><br/><br/>
-  		<span>Betygs‰tt bilden:
+  		<span>Betygs√§tt bilden:
   			<select name="rate">
 				<!-- BEGIN rate_row -->
 				<option value="{rate_row.POINT}">{rate_row.POINT}</option>

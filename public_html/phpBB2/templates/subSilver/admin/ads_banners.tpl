@@ -8,9 +8,9 @@
 		  	<b>Banners</b><br>
 		  	<div align="left">
 			  	<input type="button" value="Visa bilder" onClick="document.location='{L_SHOW_IMAGES}';return true;">
-			  	<input type="button" value="Göm bilder" onClick="document.location='{L_HIDE_IMAGES}';return true;">
+			  	<input type="button" value="GÃ¶m bilder" onClick="document.location='{L_HIDE_IMAGES}';return true;">
 			  	&nbsp;&nbsp;&nbsp;&nbsp;
-			  	<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;Lägg till en ny banner&nbsp;&nbsp;&nbsp;&nbsp;" onClick="document.location='{L_ADD_BANNER}';return true;">
+			  	<input type="button" value="&nbsp;&nbsp;&nbsp;&nbsp;LÃ¤gg till en ny banner&nbsp;&nbsp;&nbsp;&nbsp;" onClick="document.location='{L_ADD_BANNER}';return true;">
 		  	</div>
 		  </th>
 		</tr>
@@ -32,7 +32,7 @@
 		  <td class="row1" align="right">
 		  	<span class="genmed">
 		  		<input type="button" value="&nbsp;Av&nbsp;" onClick="document.location='{banner_list.L_EXPIRE_BANNER}';return true;">
-		  		<input type="button" value="&nbsp;På&nbsp;" onClick="document.location='{banner_list.L_UNEXPIRE_BANNER}';return true;">
+		  		<input type="button" value="&nbsp;PÃ¥&nbsp;" onClick="document.location='{banner_list.L_UNEXPIRE_BANNER}';return true;">
 		  		<input type="button" value="Redigera" onClick="document.location='{banner_list.L_EDIT_BANNER}';return true;">
 		  		<input type="button" value="Ta bort" onClick="document.location='{banner_list.L_DELETE_BANNER}';return true;">
 		  	</span>
