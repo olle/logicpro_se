@@ -12,12 +12,12 @@ font-family: Lucida Grande, Lucida, Big Caslon, Cochin, Georgia, Times, Times Ne
 <a href="http://www.logicpro.se/"><img src="http://logicpro.se/phpBB2/templates/subSilver/images/logicaudio_se_logo_op100.gif" border="0"></a>
 <br><br>
 
-Sida saknas för adressen: <!--#echo var="REQUEST_URI" -->
+Sida saknas fÃ¶r adressen: <!--#echo var="REQUEST_URI" -->
 <br><br>
 
-Det gick tyvärr inte att hitta sidan du sökte, kanske något i adressen inte stämmer?<br><br>
+Det gick tyvÃ¤rr inte att hitta sidan du sÃ¶kte, kanske nÃ¥got i adressen inte stÃ¤mmer?<br><br>
 
-I annat fall kan du alltid maila <a href="mailto:moderator@logicpro.se">moderator@logicpro.se</a> och be om hjälp.
+I annat fall kan du alltid maila <a href="mailto:moderator@logicpro.se">moderator@logicpro.se</a> och be om hjÃ¤lp.
 <br><br>
 
 <hr size="1">
