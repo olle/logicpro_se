@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html><head>
+<title>Fel 404 - sidan kunde ej hittas</title>
+<style type="text/css">
+BODY {
+padding: 10px; margin: 10px; padding-top: 6px; padding-left: 8px;
+width: 420px; background-color: #FFFFFF;
+font-family: Lucida Grande, Lucida, Big Caslon, Cochin, Georgia, Times, Times New Roman; font-size: 13px; color: #333333; }
+</style>
+</head>
+<body>
+<a href="http://www.logicpro.se/"><img src="http://logicpro.se/phpBB2/templates/subSilver/images/logicaudio_se_logo_op100.gif" border="0"></a>
+<br><br>
+
+Sida saknas för adressen: <!--#echo var="REQUEST_URI" -->
+<br><br>
+
+Det gick tyvärr inte att hitta sidan du sökte, kanske något i adressen inte stämmer?<br><br>
+
+I annat fall kan du alltid maila <a href="mailto:moderator@logicpro.se">moderator@logicpro.se</a> och be om hjälp.
+<br><br>
+
+<hr size="1">
+</body></html>
