@@ -1,0 +1,206 @@
+2005-02-13/14 08:12
+Uppdaterad siten skarpt igår och har fixat lite med viewonline.php och
+templates. Siten finns i alla fall ute skarpt nu, äntligen!
+
+2005-01-06 00:55
+Har uppdaterat forumet till v.2.0.11 utan några större problem. ATT KOMMA IHÅG:
+När det ska göras ute på skarpa forumet så ska scriptet köras under katalogen
+phpbb2/admin - och inget annat.
+
+Några saker som återstår:
+
+Gruppsidan, Vilka är online... sedan vet jag inte riktigt, det verkar bli rätt
+klart? :-)
+
+
+2005-01-05 22:42
+Har fixat moderatorpanelerna som man kommer åt via länk på topic och forum-
+sidorna.
+
+2005-02-02 13:30
+Har gjort en hel del på sista tiden men säkert glömt logga. Har lagt till en
+funktion som bygger den senaste artikeln som skall synas på förstasidan för
+det nya forumet. Den generella idén med publicering av artikel eller nyhet kan
+alltså nu stödjas helt och hållet.
+
+Tänk på att söka efter "TODO" i projektet för att hitta aktiviteter att ta tag
+i. Något som bör hanteras är nya ikoner för PM, ICQ, AIM o s v. Sedan är det
+klart för publicering!
+
+2005-01-29 22:30
+Privata meddelanden är fixade.
+
+2005-01-29 18:44
+Har fixat layout för sökning, både sökformuläret och för resultaten.
+
+2005-01-27 12:41
+Har fixat allt utom ERROR_BOX i posting.php, en första version i alla fall.
+
+2005-01-26 12:11
+Gick in och fixade posting.php så att alla editeringar av posts fastnar i posts
+table även om man ändrar i den senaste posten. Det ska synas var folk är och
+pillar.
+
+2005-01-24 23:32
+Fix med viewtopic.php och dess templates, men nu verkar knappar för svar och 
+quoting dyka upp som de ska även för moderatorn som ska kunna radera och mecka.
+Nästa steg är att plöja igenom de andra filerna och nu får det fan bli lite
+fart.
+
+2005-01-14 18:57
+Har byggt viewforum.php till samma utseende som förstasidan med den vita 
+tabellen för inlägg. Har även tagit ut make_latest_topics som en funktion i
+functions.php eftersom den kommer att vara med i sidhuvudet på alla bläddrings-
+sidor.
+
+2005-01-12 23:30
+Det är något fett fel på cookies - verkar inte kunna sättas av någon konstig
+anledning. <suck>
+
+2005-01-11 22:22
+Har fixat en hel del utifrån det som Mjelle mailade mig, mer luft mellan
+element på förstasidan och har påbörjat att sätta en form för tabeller.
+
+2005-01-11 01:21
+Har rättat till latest topics rutan på förstasidan och fått lite bättre
+kontroll på utseendet i Safari, men det ser fördjävligt ut i MSIE och jag ska
+nu implementera en switch för MSIE som byter font från Lucida till Verdana på
+PC.
+
+2005-01-09 23:57
+Har ordnat med en del i headern och börjat strukturera upp sidan i index.php.
+Det är nu en fråga om form och approach rent designmässigt och jag har mailat
+Mjelle om en åsikt och lite stöd i besluten.
+
+2005-01-07 01:57
+Har lagt till en första version av ads.php som ansvarar för att hämta och visa
+banners i systemet. Just nu är status att logiken kring rating inte funkar så
+bra och måste tas om hand.
+
+TODO: Hantering av banners på olika positioner på en sida - (OBS floater!)
+
+2005-01-06 21:26
+Ordade med hantering av kunder och uppdaterade bannerhanteringen så att man kan
+hantera kunder->banners samt att ladda upp filer direkt via gränssnittet. Nu
+ska själva bannersystemet läggas till för requests av banners via ett script
+under includes som alltid ligger med i headern på forumet. GROUP för en banner
+bör fritt kunna associeras mot t ex FORUM_ID - kan gå med regexp och det faktum
+att man kan använda en variabel som variabelnamn i PHP - lycka till... :-)
+
+2005-01-05 11:36
+Har slutfört en första version av hanteringen för banners. Otestat så verkar
+ADD, EDIT, DELETE och STATUS vara komplett för banners. Har börjat med samma
+tillägg för hantering av kunder, skall göra färdigt ADD, EDIT, DELETE och SHOW.
+
+2005-01-04 23:02
+Mest jobbat med banneradmin för att få till ADD, EDIT, DELETE av banners. Det
+är prio-1.
+
+2004-12-30 12:10
+Har fortsatt med lägg till banner-delen av scriptet och nu börjar det ta form.
+
+2004-12-29 22:30
+Har fortsatt att implementera alla funktioner i admin-delen av bannersystemet
+jag försöker föra över till forumet. Har precis gjort klart formuläret för att
+lägga till en ny banner - ska fortsätta med det.
+
+2004-12-29 00:34
+Har börjat pula in delar av ett befintligt bannersystem och fokuserar på att
+fixa admindelen först för att sedan ordna med bannerdistributionen, som bör
+vara trivialt.
+
+2004-12-09 23:32
+Allt är skit. Bannersystemet funkar inte som jag hade hoppats. Jag kommer inte
+bygga något själv utan fixar ett 3;e-parts som jag inkorporerar i admindelen.
+Det är skit men vad fan!
+
+TODO: Scrappa bannersystemet och fixa 3:e-parts.
+
+2004-12-09 00:33
+Nu är det fint igen. Forumet (det skarpa) har flyttat klart så det är dags att
+bränna på lite med koden. Bara bannersystemet blir klart så ska en första
+kammad version ut tänkte jag.
+
+Nu har i alla fall includes/functions_ads.php börjat ta lite form. Den ger en
+output i headern i hela forumet i alla fall och måste nu bara hämta rätt info
+från databasen och generera en banner utifrån det som är bokat eller inte.
+
+TODO: Mecka bannersystem!
+
+2004-12-01 23:56
+Har lagt till filen includes/functions_ads.php som kommer att innehålla de
+funktioner som ska returnera bannersträngen på sidorna.
+
+TODO: Jobba med includes funktionerna för att generera bannersträngar. Använd
+source som finns i databasen för hur bannern ser ut och en template för hur den
+renderas och returnera hela skiten.
+
+2004-11-28 23:19
+Har kapat bort en hel del ur första idén för bannersystemet - insett att det
+måste bli enkelt till att börja med men jag låter modulen för administration
+vara kvar och styra utvecklingen så slipper jag den sura korven senare. Har
+spanat lite på hur man kan läsa in och lägga upp en lista på giltiga URI's för
+att senare kunna slå upp vilken banner som skall stoppas in på vilken plats.
+
+TODO: Gör klart bannersystem.
+
+2004-11-27 17:29
+Har lagt till en tabell för Banners och en ny modul för hantering av dessa
+under admin-gränssnittet. Det återstår förstås fortfarande att sätta ihop
+själva bannersystemet men jag utgår från att fixa ett admingränssnitt så att
+det blir lätt att hantera när det väl kommer igång.
+
+TODO: Gör klart tabellen för Campaigns och lägg till alla kolumenr för dessa
+egenskaper.
+
+2004-11-25 00:40
+Mycket form fixat med, knapparna sitter i v1.0 nu men jag väntar fortfarande på
+Mjelles feedback på font, centrering, färger och lite annat.
+
+TODO: Följ upp look med Mjelle bygg Bannersystem!!!!
+
+2004-11-24 12:23
+Har både jobbat med form för knappar och meny i PS samt testat att implementera
+bakgrundsbilder för en table med knappar. Det fungerar utmärkt än så länge
+nu gäller det att få till sökrutan.
+
+TODO: Mer form, sök och bannersystem är prio!
+
+2004-11-23 23:35
+Fibblat med stylesheets och tabeller - det måste till att designen sätts lite
+mer ordentligt, en meny som är tydlig och funktionsenlig måst fixas helt i
+PhotoShop innan jag kan bygga den klart. Har sått ett frö till hur en fin liten
+"funktionsruta" kan komma att se ut dock, det kan bli bra som en statusbox med
+lite funktioner i också.
+
+TODO: Mer look i PS och tankar kring bannersystem måste upp!
+
+2004-11-22 23:08
+Inga större insatser är väl gjorda men forumet är i totalt kaos. Försöker börja
+strukturera upp siten så att den närmar sig Mjelles design men jag är fort-
+farande osäker på en del färger, typsnitt och formmässiga lösningar, men jag
+gör så gott jag kan.
+
+TODO: Look för index och bannersystem!
+
+2004-11-21 23:10
+Har inte jobbat vidare med CSS-filerna, de får vila ett tag, nu tittar jag mer
+på TPL-template-filerna för att lära mig förstå och avgöra vad som krävs för
+att kunna implementera snygga ramverk för det nya forumet. Det verkar som varje
+template får sina variabler definierade genom den PHP-fil som hör till, en enkel
+och rättfram struktur som säkert kommer fungera för att genomföra form-
+ändringarna jag vill göra.
+
+TODO: Jobba vidare med overall_header.php och dess templates. Försök bygga upp
+hela header-looken enligt Mjelles skiss, för att komma vidare med designen.
+
+TODO: Bannersystem, att ta fram ett enkelt, specialanpassat men flexibelt banner-
+system för forumet.
+
+2004-11-10 10:30
+Har börjat ordna med CSS-filen och rensa bort det värsta skräpet för att kunna
+gå vidare och redigera template-filerna inför den nya stilen.
+
+TODO: fortsätt trixa lite med CSS-filen men gå sedan vidare och börja
+mecka med index-templaten för att få till en vettig förstasida så snart som
+möjligt.
