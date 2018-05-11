@@ -1,0 +1,92 @@
+/*
+  First we reset everything.
+  http://meyerweb.com/eric/tools/css/reset/
+  v2.0 | 20110126
+  License: none (public domain)
+*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video
+  {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html {
+  height: 100%;
+}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+  display: block;
+}
+
+body {
+  height: 100%;
+  line-height: 1;
+}
+
+ol,ul {
+  list-style: none;
+}
+
+blockquote,q {
+  quotes: none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* LAYOUT */
+body {
+  background: #666;
+}
+
+#container {
+  position: relative;
+  height: 100%;
+}
+
+#container header {
+  height: 70px;
+  background: #bbb;
+}
+
+#container div#main {
+  position: absolute;
+  top: 70px;
+  bottom: 42px;
+  left: 0px;
+  right: 0px;
+  background-color: #eee;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#bbb), to(#eee) );
+  background-image: -webkit-linear-gradient(top, #bbb, #eee);
+  background-image: -moz-linear-gradient(top, #bbb, #eee);
+  background-image: -ms-linear-gradient(top, #bbb, #eee);
+  background-image: -o-linear-gradient(top, #bbb, #eee);
+}
+
+#container footer {
+  background-color: #eee;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ddd), to(#bbb) );
+  background-image: -webkit-linear-gradient(top, #ddd, #bbb);
+  background-image: -moz-linear-gradient(top, #ddd, #bbb);
+  background-image: -ms-linear-gradient(top, #ddd, #bbb);
+  background-image: -o-linear-gradient(top, #ddd, #bbb);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 40px;
+  bottom: 0px;
+  height: 40px;
+  border-top: 1px solid #fff;
+}
